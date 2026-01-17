@@ -23,5 +23,5 @@ def greet(): # def ---> use to create funtion , greet --> name of func () --> to
     print("Hi")
     print("hay")
 
-greet() # calling the func 
+greet() # calling the func you can call n number of time to achive dry
 greet()
