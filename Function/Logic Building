@@ -1,0 +1,32 @@
+Logic Building 
+
+i * j = n
+j = n/i
+i = n/j
+
+1 * 20 = 20 
+2 * 10 = 20 
+4 * 5  = 20 
+
+20 * 1 = 20
+10 * 2 = 20 
+5  * 4 =  20 
+
+Array = it is collection , maintain  squences and insertion order 
+index strat 0 to n-1
+
+
+stack memory store variable 
+heap memory store collection 
+
+
+rotateKTime
+k=2
+arr = [1,2,3,4,5]
+temp = arr[-1] => 5
+
+
+
+
+
+

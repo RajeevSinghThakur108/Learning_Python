@@ -174,13 +174,42 @@ nums = [1, 2, 3, 4, 5] # [5, 1, 2, 3, 4]
 # r.insert(0,nums[n-p])
 
 # print(r)
-p=1
-n=len(nums)
-e=nums.remove(n)
-nums.insert(0,e)
-print(nums)
+# p=1
+# n=len(nums)
+# e=nums.remove(n)
+# nums.insert(0,e)
+# print(nums)
 
 
+# nums = [1, 2, 3, 4, 5]
+
+
+# def count_even(nums):
+#     count = 0
+#     for i in nums:
+#         if i % 2 == 0:
+#             count += 1
+#     return count
+
+# def find_max(nums):
+#     maxNumber = nums[0]
+#     for i in nums:
+#         if i > maxNumber:
+#             maxNumber = i
+#     return maxNumber
+
+# def sum_of_list(nums):
+#     totalSum = 0
+#     for i in nums:
+#         totalSum +=i
+#     return totalSum
+
+
+# def is_sorted(nums):
+#     for i in range(1, len(nums)):
+#         if nums[i] < nums[i - 1]:
+#             return False
+#     return True
 
 
 

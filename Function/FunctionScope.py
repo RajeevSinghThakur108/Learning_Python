@@ -29,10 +29,21 @@ outer()       # outter func called
 
 # G — Global Scope
 
-y = 30 
+x = 10
+def display():
+  global x # if only read then on need global keyword
+  x = x + 1
+  print(x)
+display()
+
+# only read
+y = 30   # global variable
+
 def display():
     print(y)
+
 display()
+
 
 # Variables defined outside all functions
 
