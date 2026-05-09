@@ -1,0 +1,7 @@
+def printNtoOne(i,n):
+    if i>n:
+        return
+    print(n)
+    printNtoOne(i , n-1)
+
+printNtoOne(1,4)

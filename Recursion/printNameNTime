@@ -1,0 +1,8 @@
+def printName(n , name):
+    if n == 0:
+        return
+    print(name)
+    
+    printName(n-1, name)
+
+printName(5,"Rajeev")

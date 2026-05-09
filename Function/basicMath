@@ -1,5 +1,0 @@
-Extraction of digit 
-
-a = 7789 
-n = a%10 => 9 (mean geting reminder when 7789 divided by 10 )
-
